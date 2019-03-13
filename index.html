@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this app</h2>
+			<p>How to Use with 5 buttons</p>
+			<ul>
+				<li>Navigate the calculator by using the w,a,s,d, and k keys</li>
+				<li>w moves up, a moves left, s moves down, d moves right</li>
+				<li>k will select the current item</li>
+				<li>Test results</li>	
+			</ul>
+
+			<p>How to Use with 3 buttons</p>
+			<ul>
+				<li>Navigate the calculator by using the a, d, and k keys</li>
+				<li> a moves left and will jump to previous row</li>
+				<li> d moves right and will jump to next row</li>
+				<li>k will select the current item</li>
+				
+			</ul>
+			<p>Test Results</p>
+				<p> Ran a time trials on performing the fallowing task while 5 buttons vs 3 buttons:
+					10+10 =
+					1+2+1+4+1 =
+					7+5+3 = 
+					167+754 =
+					12*9+8 =
+					Watching the test subject perform these tasks and knowing they are timed resulted in a few mistakes. The subject will select the wrong key by mistake a few more while using the 3 buttons then the 5. Over all the 5 buttons had less errors and performed quicker. Each of these test was given to each of my Roomates (2 roomates) and the results were similar amoung each. 
+					For future there should be some mechinism to revers the selection of a mistake rather then starting over. 
+				</p>
+
+
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
